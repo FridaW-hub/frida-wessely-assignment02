@@ -6,6 +6,8 @@ public class Main {
 		BasicCalculator bc = new BasicCalculator();
 		System.out.println(bc.addition(2, 2));
 
+		AdvancedCalculator ac = new AdvancedCalculator();
+		System.out.println(ac.absolutValue(-110.23));
 	}
 
 }

@@ -1,5 +1,4 @@
 package com.nackademin.frida_wessely_assignment02;
-import com.nackademin.frida_wessely_assignment02.interfaces.AdvancedOperations;
 
 public class AdvancedCalculator extends BasicCalculator implements AdvancedOperations {
 	
@@ -13,6 +12,30 @@ public class AdvancedCalculator extends BasicCalculator implements AdvancedOpera
 
 	public double absolutValue(double value) {
 		return Math.abs(value);
+	}
+
+	@Override
+	public double squareRoot(double firstNumber, double secondNumber) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double absolutValue(double firstNumber, double secondNumber) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double modul(double firstNumber, double secondNumber) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double log(double firstNumber, double secondNumber) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 
