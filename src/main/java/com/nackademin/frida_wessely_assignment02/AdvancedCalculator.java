@@ -2,12 +2,13 @@ package com.nackademin.frida_wessely_assignment02;
 
 public class AdvancedCalculator extends BasicCalculator implements AdvancedOperations {
 	
-	public double square(double number) {
-		return number*number;
+	public double square(double value) {
+		return value*value;
 	}
 	
 	public double raisedToThePowerOf(double base, double exponent) {
-		return Math.pow(base, exponent);
+	double result = Math.pow(base, exponent);
+			return result;
 	}
 
 	public double absolutValue(double value) {
@@ -15,28 +16,15 @@ public class AdvancedCalculator extends BasicCalculator implements AdvancedOpera
 	}
 
 	@Override
-	public double squareRoot(double firstNumber, double secondNumber) {
-		// TODO Auto-generated method stub
-		return 0;
+	public double squareRoot(double value) {
+		return Math.sqrt(value);
 	}
 
 	@Override
-	public double absolutValue(double firstNumber, double secondNumber) {
-		// TODO Auto-generated method stub
-		return 0;
+	public double round(double value) {
+		return Math.round(value);
 	}
 
-	@Override
-	public double modul(double firstNumber, double secondNumber) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public double log(double firstNumber, double secondNumber) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
 
 
 }

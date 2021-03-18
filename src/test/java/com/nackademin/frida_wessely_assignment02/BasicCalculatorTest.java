@@ -17,9 +17,21 @@ public class BasicCalculatorTest {
 		double tempRandomValue1 = 0;
 		double tempRandomValue2 = 0;
 		double tempResult = 0;
+		//Testar med 0-värden.
+		LOG.info("Testing the addition method with: " + tempRandomValue1 + " + " + tempRandomValue2);
+		assertEquals(bc.addition(tempRandomValue1, tempRandomValue2),tempResult,0);
+		//Testar med positiva värden.
 		for (int i = 0; i < 10; i++){
 			tempRandomValue1 = random.nextDouble();
 			tempRandomValue2 = random.nextDouble();
+			tempResult = tempRandomValue1 + tempRandomValue2;
+			LOG.info("Testing the addition method with: " + tempRandomValue1 + " + " + tempRandomValue2);
+			assertEquals(bc.addition(tempRandomValue1, tempRandomValue2),tempResult,0);
+		}
+		//Testar med negativa värden.
+		for (int i = 0; i < 10; i++){
+			tempRandomValue1 = -1*random.nextDouble();
+			tempRandomValue2 = -1*random.nextDouble();
 			tempResult = tempRandomValue1 + tempRandomValue2;
 			LOG.info("Testing the addition method with: " + tempRandomValue1 + " + " + tempRandomValue2);
 			assertEquals(bc.addition(tempRandomValue1, tempRandomValue2),tempResult,0);
@@ -31,9 +43,21 @@ public class BasicCalculatorTest {
 		double tempRandomValue1 = 0;
 		double tempRandomValue2 = 0;
 		double tempResult = 0;
+		//Testar med nollvärde.
+		LOG.info("Testing the subtraction method with: " + tempRandomValue1 + " - " + tempRandomValue2);
+		assertEquals(bc.subtraction(tempRandomValue1, tempRandomValue2), tempResult, 0);
+		//Testar med positiva väreden.
 		for (int i = 0; i < 10; i++) {
 			tempRandomValue1 = random.nextDouble();
 			tempRandomValue2 = random.nextDouble();
+			tempResult = tempRandomValue1 - tempRandomValue2;
+			LOG.info("Testing the subtraction method with: " + tempRandomValue1 + " - " + tempRandomValue2);
+			assertEquals(bc.subtraction(tempRandomValue1, tempRandomValue2), tempResult, 0);
+		}
+		//Testar med negativa värden.
+		for (int i = 0; i < 10; i++) {
+			tempRandomValue1 = -1*random.nextDouble();
+			tempRandomValue2 = -1*random.nextDouble();
 			tempResult = tempRandomValue1 - tempRandomValue2;
 			LOG.info("Testing the subtraction method with: " + tempRandomValue1 + " - " + tempRandomValue2);
 			assertEquals(bc.subtraction(tempRandomValue1, tempRandomValue2), tempResult, 0);
@@ -45,9 +69,18 @@ public class BasicCalculatorTest {
 		double tempRandomValue1 = 0;
 		double tempRandomValue2 = 0;
 		double tempResult = 0;
+		//Testar med positiva värden
 		for (int i = 0; i < 10; i++) {
 			tempRandomValue1 = random.nextDouble();
 			tempRandomValue2 = random.nextDouble();
+			tempResult = tempRandomValue1/tempRandomValue2;
+			LOG.info("Testing the division method with: " + tempRandomValue1 + " / " + tempRandomValue2);
+			assertEquals(bc.division(tempRandomValue1, tempRandomValue2), tempResult, 0);
+		}
+		//Testar med negativa värden
+		for (int i = 0; i < 10; i++) {
+			tempRandomValue1 = -1*random.nextDouble();
+			tempRandomValue2 = -1*random.nextDouble();
 			tempResult = tempRandomValue1/tempRandomValue2;
 			LOG.info("Testing the division method with: " + tempRandomValue1 + " / " + tempRandomValue2);
 			assertEquals(bc.division(tempRandomValue1, tempRandomValue2), tempResult, 0);
@@ -59,6 +92,7 @@ public class BasicCalculatorTest {
 		double tempRandomValue1 = 0;
 		double Zero = 0;
 		double tempResult = -0.12345679;
+		//Testar nollvärde
 		for (int i = 0; i < 10; i++) {
 			tempRandomValue1 = random.nextDouble();
 			LOG.info("Testing the division method for zero with: " + tempRandomValue1 + " / " + Zero);
@@ -71,8 +105,20 @@ public class BasicCalculatorTest {
 		double tempRandomValue1 = 0;
 		double tempRandomValue2 = 0;
 		double tempResult = 0;
+		//Test med nollvärde.
+		LOG.info("Testing the multiplication method with: " + tempRandomValue1 + " * " + tempRandomValue2);
+		assertEquals(bc.multiplication(tempRandomValue1, tempRandomValue2), tempResult, 0);
+		//Test med positiva värden.
 		for (int i = 0; i < 10; i++) {
 			tempRandomValue1 = random.nextDouble();
+			tempRandomValue2 = random.nextDouble();
+			tempResult = tempRandomValue1*tempRandomValue2;
+			LOG.info("Testing the multiplication method with: " + tempRandomValue1 + " * " + tempRandomValue2);
+			assertEquals(bc.multiplication(tempRandomValue1, tempRandomValue2), tempResult, 0);
+		}
+		//Test med ett negativt värde.
+		for (int i = 0; i < 10; i++) {
+			tempRandomValue1 = -1*random.nextDouble();
 			tempRandomValue2 = random.nextDouble();
 			tempResult = tempRandomValue1*tempRandomValue2;
 			LOG.info("Testing the multiplication method with: " + tempRandomValue1 + " * " + tempRandomValue2);

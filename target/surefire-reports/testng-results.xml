@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="106" started-at="2021-03-18T09:18:39Z" finished-at="2021-03-18T09:18:39Z">
+  <suite name="Surefire suite" duration-ms="106" started-at="2021-03-18T10:32:50Z" finished-at="2021-03-18T10:32:50Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="106" started-at="2021-03-18T09:18:39Z" finished-at="2021-03-18T09:18:39Z">
+    <test name="Surefire test" duration-ms="106" started-at="2021-03-18T10:32:50Z" finished-at="2021-03-18T10:32:50Z">
       <class name="com.nackademin.frida_wessely_assignment02.BasicCalculatorTest">
-        <test-method status="PASS" signature="testDivisionZero()[pri:0, instance:testDivisionZero(com.nackademin.frida_wessely_assignment02.BasicCalculatorTest)]" name="testDivisionZero" duration-ms="14" started-at="2021-03-18T10:18:39Z" finished-at="2021-03-18T10:18:39Z">
+        <test-method status="PASS" signature="testDivisionZero()[pri:0, instance:testDivisionZero(com.nackademin.frida_wessely_assignment02.BasicCalculatorTest)]" name="testDivisionZero" duration-ms="16" started-at="2021-03-18T11:32:50Z" finished-at="2021-03-18T11:32:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDivisionZero -->
-        <test-method status="PASS" signature="testMultiplication()[pri:0, instance:testMultiplication(com.nackademin.frida_wessely_assignment02.BasicCalculatorTest)]" name="testMultiplication" duration-ms="7" started-at="2021-03-18T10:18:39Z" finished-at="2021-03-18T10:18:39Z">
+        <test-method status="PASS" signature="testMultiplication()[pri:0, instance:testMultiplication(com.nackademin.frida_wessely_assignment02.BasicCalculatorTest)]" name="testMultiplication" duration-ms="7" started-at="2021-03-18T11:32:50Z" finished-at="2021-03-18T11:32:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiplication -->
-        <test-method status="PASS" signature="testAddition()[pri:0, instance:testAddition(com.nackademin.frida_wessely_assignment02.BasicCalculatorTest)]" name="testAddition" duration-ms="10" started-at="2021-03-18T10:18:39Z" finished-at="2021-03-18T10:18:39Z">
+        <test-method status="PASS" signature="testAddition()[pri:0, instance:testAddition(com.nackademin.frida_wessely_assignment02.BasicCalculatorTest)]" name="testAddition" duration-ms="10" started-at="2021-03-18T11:32:50Z" finished-at="2021-03-18T11:32:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddition -->
-        <test-method status="PASS" signature="testDivision()[pri:0, instance:testDivision(com.nackademin.frida_wessely_assignment02.BasicCalculatorTest)]" name="testDivision" duration-ms="3" started-at="2021-03-18T10:18:39Z" finished-at="2021-03-18T10:18:39Z">
+        <test-method status="PASS" signature="testDivision()[pri:0, instance:testDivision(com.nackademin.frida_wessely_assignment02.BasicCalculatorTest)]" name="testDivision" duration-ms="6" started-at="2021-03-18T11:32:50Z" finished-at="2021-03-18T11:32:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDivision -->
-        <test-method status="PASS" signature="testSubtraction()[pri:0, instance:testSubtraction(com.nackademin.frida_wessely_assignment02.BasicCalculatorTest)]" name="testSubtraction" duration-ms="4" started-at="2021-03-18T10:18:39Z" finished-at="2021-03-18T10:18:39Z">
+        <test-method status="PASS" signature="testSubtraction()[pri:0, instance:testSubtraction(com.nackademin.frida_wessely_assignment02.BasicCalculatorTest)]" name="testSubtraction" duration-ms="7" started-at="2021-03-18T11:32:50Z" finished-at="2021-03-18T11:32:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSubtraction -->
       </class> <!-- com.nackademin.frida_wessely_assignment02.BasicCalculatorTest -->
       <class name="com.nackademin.frida_wessely_assignment02.AdvancedCalculatorTest">
-        <test-method status="PASS" signature="testAbsolutValue()[pri:0, instance:testAbsolutValue(com.nackademin.frida_wessely_assignment02.AdvancedCalculatorTest)]" name="testAbsolutValue" duration-ms="11" started-at="2021-03-18T10:18:39Z" finished-at="2021-03-18T10:18:39Z">
+        <test-method status="PASS" signature="testAbsolutValue()[pri:0, instance:testAbsolutValue(com.nackademin.frida_wessely_assignment02.AdvancedCalculatorTest)]" name="testAbsolutValue" duration-ms="3" started-at="2021-03-18T11:32:50Z" finished-at="2021-03-18T11:32:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAbsolutValue -->
