@@ -2,15 +2,18 @@ package com.nackademin.frida_wessely_assignment02;
 
 public class AdvancedCalculator extends BasicCalculator implements AdvancedOperations {
 	
+	@Override
 	public double square(double value) {
 		return value*value;
 	}
 	
+	@Override
 	public double raisedToThePowerOf(double base, double exponent) {
 	double result = Math.pow(base, exponent);
 			return result;
 	}
 
+	@Override
 	public double absolutValue(double value) {
 		return Math.abs(value);
 	}
